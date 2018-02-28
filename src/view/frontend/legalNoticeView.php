@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-<?php require('./src/view/header.php'); ?>
+<?php require('./src/view/nav_admin.php'); ?>
 <div class="container">
 	<section class="row">
 		<div class="legalNotice">
