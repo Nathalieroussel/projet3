@@ -23,7 +23,7 @@
                                     <li class=""><a href="index.php?action=pageAccueil#testimonial">Critiques littéraires</a></li>
                                     <li class=""><a href="#blog">Chapitres</a></li>
                                     <li class=""><a href="index.php?action=pageAccueil#contact">Contact</a></li>
-                                    <li class=""><a href="index.php?action=pageAccueil">Articles</a></li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -39,8 +39,7 @@
                                         <h2 class="bnr-sub-title">Billet simple pour l'Alaska</h2>
                                         <p class="bnr-para">Installé dans une vie bien rangée et paisible, Paul décide de tout quitter pour découvrir l'Alaska! Dominé par le mont Mc Kinley et recouvert des plus anciens et grands glaciers de la Terre, l'Alaska abrite également des lacs somptueux,de magnifiques forêts, comme celle de Tongass, où se développent des espèces de faune et de flore rares, et constitue une destination fascinante pour qui recherche une nature préservée et majestueuse.<br>Mais le rêve de Paul va très vite virer au cauchemard...</p>
                                         <div class="brn-btn">
-                                            <a href="index.php?action=loginView#login" class="btn btn-download">Connexion admin</a>
-                                            <a href="#blog" class="btn btn-more">Lire le livre</a>
+                                            <a href="#blog" class="btn btn-download">Lire le livre</a>
                                         </div>
                                     </div>
                                 </div>

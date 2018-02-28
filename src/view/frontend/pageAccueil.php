@@ -5,8 +5,8 @@
 <?php require('./src/view/nav.php'); ?>
 <?php require('./src/view/header.php'); ?>
 <?php require('./src/view/about.php'); ?>
-<?php require('./src/view/testimonial.php'); ?>
 <?php require('./src/view/bibliographie.php'); ?>
+<?php require('./src/view/testimonial.php'); ?>
 <?php require('./src/view/chapitre.php'); ?>
 <?php require('./src/view/contact.php'); ?>
 <?php require('./src/view/footer.php'); ?>

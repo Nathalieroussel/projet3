@@ -17,7 +17,7 @@
                 <li class=""><a href="index.php?action=pageAccueil#testimonial">Critiques littéraires</a></li>
                 <li class=""><a href="#blog">Chapitres</a></li>
                 <li class=""><a href="index.php?action=pageAccueil#contact">Contact</a></li>
-                <li class="logo"><a href="index.php?action=pageAccueil">Articles</a></li>
+                
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php?action=loginView"><span class="glyphicon glyphicon-user"></span> Connexion admin</a></li>

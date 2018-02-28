@@ -2,6 +2,11 @@
     <div class="bg-testicolor">
         <div class="container section-padding">
             <div class="row">
+               <div class="col-md-12 text-center">
+                <h2 class="service-title2 pad-bt15">CRITIQUES LITTERAIRES</h2>
+                <hr class="bottom-line">
+                </div>
+                <div class="col-md-12 text-center">
                 <div class="testimonial-item">
                     <ul class="bxslider">
                         <li>
@@ -21,7 +26,7 @@
                         <li>
                             <blockquote>
                                 <img src="public/img/critique2.jpg" class="img-responsive">
-                                <p>Un premier roman et une découverte littéraire qui ravira les amateurs du genre. Un nouveau style d'écriture et une montée en puissance au fil des pages...un véritable chef d'oeuvre!</p>
+                                <p>Un premier roman et une découverte littéraire qui ravira les amateurs du genre. Un nouveau style d'écriture et une ...un chef d'oeuvre!</p>
                             </blockquote>
                             <small>PALMER Yvan, L'Express <em>("Le Parking" 2011)</em></small>
                         </li>
@@ -36,5 +41,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>

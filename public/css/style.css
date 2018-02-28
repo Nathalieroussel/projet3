@@ -49,6 +49,7 @@ h6 {
 
 .section-padding {
     padding: 60px 0px;
+    
 }
 
 #loader {
@@ -279,7 +280,7 @@ h2.bnr-sub-title {
 
 /***********************************
 ************************************
-features
+A propos (about)
 ************************************
 ***********************************/
 
@@ -315,7 +316,7 @@ features
 }
 
 .pad-bt15 {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .sec-sub-title {
@@ -515,12 +516,14 @@ TESTIMONIAL
     background-size: cover;
     min-height: 390px;
     background-attachment: fixed;
+    
 
 }
 
 .bg-testicolor {
     background-color: RGBA(73, 84, 105, 0.61);
     min-height: 390px;
+    height: 490px;
 }
 
 .white {
@@ -528,14 +531,14 @@ TESTIMONIAL
 }
 
 .testimonial-item ul li blockquote {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 32px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     text-shadow: 1px 1px 2px #333;
-    text-align: center;
+     text-align: center;
     display: inline-block;
-    width: 100%;
+    width: 90%;
     margin: 20px 0;
     padding: 0 80px;
     position: relative;
@@ -549,7 +552,7 @@ TESTIMONIAL
     text-shadow: 1px 1px 2px #333;
     text-align: center;
     display: inline-block;
-    width: 100%;
+    width: 90%;
 }
 
 .bx-viewport {
@@ -1030,7 +1033,6 @@ Responsive media queries
 }
 
 
-
 .head_table {
     text-align: center;
     width: auto;
@@ -1082,18 +1084,26 @@ Responsive media queries
     margin-top: 50px;
 }
 
-
-
-
-
 .pseudo_comment {
     color: red;
 }
 
 
-
-
-
 .button_report {
     margin-top:-12px;
 }
+
+
+
+
+
+.service-title2 {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+
+    
+}
+
+
