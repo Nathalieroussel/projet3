@@ -15,7 +15,7 @@
                 <li class=""><a href="index.php?action=pageAccueil#apropos">A propos</a></li>
                 <li class=""><a href="index.php?action=pageAccueil#bibliographie">Bibliographie</a></li>
                 <li class=""><a href="index.php?action=pageAccueil#testimonial">Critiques littéraires</a></li>
-                <li class=""><a href="#blog">Chapitres</a></li>
+                <li class=""><a href="index.php?action=pageAccueil#blog">Chapitres</a></li>
                 <li class=""><a href="index.php?action=pageAccueil#contact">Contact</a></li>
             </ul>
         </div>

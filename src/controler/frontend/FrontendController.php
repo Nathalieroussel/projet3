@@ -65,8 +65,7 @@ class frontendController
 	}
     
     
-    
-    
+
     
 	public function loginView()
 	{

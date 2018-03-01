@@ -768,44 +768,7 @@ contact
     font-weight: 400;
 }
 
-/***********************************
-************************************
-Responsive media queries
-************************************
-***********************************/
 
-/***********************************
-************************************
-cta
-************************************
-***********************************/
-
-.cta {
-    background-color: rgb(73, 84, 105);
-}
-
-.cta .cta-info {
-
-    width: 100%;
-    float: left;
-    padding: 30px 25px 30px 15px;
-    border-radius: 5px;
-}
-
-.cta .cta-info .cta-txt h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.cta .cta-info .cta-btn {
-    margin-top: 16px;
-    background-color: rgb(190, 158, 33);
-    padding: 20px 50px;
-    color: #FFF;
-    font-size: 22px;
-    display: inline-block;
-    transition: all 0.5s ease-in 0s;
-}
 
 /***********************************
 ************************************
@@ -1106,6 +1069,10 @@ Responsive media queries
     
 }
 
+.legalNotice {
+    margin-top: 150px;
+}
+
 
 /***********************************
 ************************************
@@ -1113,9 +1080,19 @@ chapitres
 ************************************
 ***********************************/
 
-
-
-
-.legalNotice {
-    margin-top: 150px;
+.btn-read {
+    background-color: #be9e22;
+    color: white;
 }
+
+.blog-row {margin-top:50px; 
+}
+.margin_bottom30 { margin-bottom:30px; 
+
+}
+.margin_left10 {margin-left:10px; }
+.blog-content {padding:50px;}
+.bg-white {background-color:black;}
+
+
+

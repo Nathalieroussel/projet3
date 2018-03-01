@@ -7,6 +7,7 @@ class Post
 	protected $title;
 	protected $content;
 	protected $datePost;
+    protected $image;
 
 	const TITRE_INVALIDE = 1; 
 	const CONTENU_INVALIDE = 2;
@@ -57,6 +58,11 @@ class Post
 	{
 		$this->datePost = $datePost;
 	}
+    
+   public function setImage($image)
+	{
+		$this->image = $image;
+	}
 
 /*-----getters-----*/
 
@@ -84,4 +90,10 @@ class Post
 	{
 		return $this->$datePost;
 	}
+    
+   public function image()
+	{
+		return $this->$image;
+	}
+    
 }
