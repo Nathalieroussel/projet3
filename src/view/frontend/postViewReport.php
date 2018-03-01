@@ -2,22 +2,10 @@
 
 <?php ob_start(); ?>
 
-<?php require('./src/view/header.php'); ?>
-<div class="container">
-	<section>
-		<div class="post">
-			<h1><?= htmlspecialchars($post['title'])?></h1>
-			<img src="public/picture/alaska_banner.jpg" class="alaska_banner">
-			<div class="article_post">
-				<p><?= htmlspecialchars($post['content'])?></p>
+<?php require('./src/view/nav_chapitre.php'); ?>
 
-				<ul class="list-unstyled col-lg-offset-10">
-					<li>Jean Forteroche</li>
-					<li><?= $post['datePost_fr']?></li>
-				</ul>
-			</div>
-		</div>
-		<br>
+	<section id class="report">
+	<div class="container">
 		<div class="comments">
 			<h2>Commentaires</h2>
 			<hr>
@@ -31,7 +19,7 @@
 						<p class="col-lg-10 col-sm-10 col-xs-8 "><?= htmlspecialchars($data['content']) ?></p>
 						<div class="col-lg-2">
 							<div class="button_report">
-								<a href="index.php?action=reportComment&amp;id=<?= $data['id'] ?>&amp;postid=<?= $data['id_post'] ?>" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-exclamation-sign"></span> signaler</a>
+								<a href="index.php?action=reportComment&amp;id=<?= $data['id'] ?>&amp;postid=<?= $data['id_post'] ?>" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-exclamation-sign"></span> Signaler</a>
 							</div>
 						</div>
 					</div>
@@ -48,7 +36,7 @@
 					<hr>
 					<div class="form-group">
 						<div class="row">
-				      		<div class="col-lg-3">
+				      		<div class="col-lg-6">
 					      		<label for="pseudo">pseudo: </label>
 					     		<input id="pseudo" type="text" name="pseudo" class="form-control";>
 					     	</div>
@@ -65,8 +53,9 @@
 				</div>
 			</div>	
 		</form>
+        </div>
 	</section>
-</div>
+
 
 <?php require('./src/view/footer.php'); ?>
 

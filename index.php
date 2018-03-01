@@ -3,6 +3,9 @@ require('src/controler/frontend/FrontendController.php');
 require('src/controler/backend/BackendController.php');
 
 
+ 
+
+
 /*------------------------Affichage visiteur Partie------------------------*/
 try {
 	if (isset($_GET['action'])) {

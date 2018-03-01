@@ -26,12 +26,17 @@
                      <div class="col-md-6 col-sm-12 col-xs-12">
                      
                         <h3> <?= htmlspecialchars($data['title']) ?></h3>
-                        <p><?= htmlspecialchars($data['datePost_fr']) ?></p>
+                        <ul class="blog-detail list-inline"> 
+								<li><i class="fa fa-user"></i> Jean Forteroche</li> 
+								<li><i class="fa fa-clock-o"></i> <?= htmlspecialchars($data['datePost_fr']) ?></li> 
+							</ul> 
+                        
                         <p><?= htmlspecialchars($data['extract_content']) ?>...<a href="index.php?action=postView&amp;id=<?= $data['id']?>" class="heading_color"></a></p>
                         <a class="btn btn-read" href="index.php?action=postView&amp;id=<?= $data['id']?>">Lire l'intégralité</a>
+                        
                         <hr>
 
-                        <span class="pull-right">Par : <strong>Jean FORTEROCHE</strong></span> 
+                        <span class="pull-right">Extrait du livre :<strong><em>"Billet simple pour l'Alaska"</em></strong></span> 
                     </div>
                 </div>
             </div>
