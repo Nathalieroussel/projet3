@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-<?php require('./src/view/nav_admin.php'); ?>
+<?php require('./src/view/nav_connected.php'); ?>
 <div class="container">
         <section id="modification_chapitre">
 			<h1>Ajouter un nouveau Chapitre</h1>

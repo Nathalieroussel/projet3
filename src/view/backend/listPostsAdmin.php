@@ -2,7 +2,7 @@
 
 <?php ob_start(); ?>
 
-<?php require('./src/view/nav_admin.php'); ?>
+<?php require('./src/view/nav_connected.php'); ?>
 
 <div class="jumbotron">
     <section id="console_admin">

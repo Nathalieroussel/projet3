@@ -13,11 +13,9 @@
             <ul class="nav navbar-nav navbar-center">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Bonjour Jean Forteroche</a></li>
                 <li class="position"><a href="index.php?action=pageAccueil#main-header">Voir le site</a></li>
-                <li class=""><a href="index.php?action=listPostsAdmin">Les chapitres </a></li>
-                <li class=""><a href="index.php?action=pageAccueil#bibliographie">Bibliographie</a></li>
-                <li class=""><a href="index.php?action=pageAccueil#testimonial">Critiques littéraires</a></li>
-                <li class=""><a href="index.php?action=pageAccueil#blog">Chapitres</a></li>
-                <li class=""><a href="index.php?action=pageAccueil#contact">Contact</a></li>
+                <li class=""><a href="index.php?action=listPostsAdmin">Tous les chapitres </a></li>
+                <li class=""><a href="index.php?action=newPostAdmin">Ecrire un chapitre</a></li>
+                <li class=""><a href="index.php?action=listCommentsAdmin">Voir les commentaires</a></li>
                 
             </ul>
             <ul class="nav navbar-nav navbar-right">

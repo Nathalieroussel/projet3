@@ -2,10 +2,10 @@
 
 <?php ob_start(); ?>
 
-<?php require('./src/view/nav_admin.php'); ?>
+<?php require('./src/view/nav_connected.php'); ?>
 <div class="container">
     <section id="console_admin">
-        <h2 span class="console">Tableau de bord</h2>
+        <h2 span class="console">Commentaires</h2>
         <div class="navigation text-left">
             <div class="row">
                 <div class="col-lg-12 comments">
