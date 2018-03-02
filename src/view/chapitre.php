@@ -17,12 +17,13 @@
             <div class="row blog-row">
               
                 <div class="col-md-6 col-sm-12 col-xs-12 margin_bottom30">
+                  
                     
-				<img class="img-responsive center-block" src="public/img/alaska.jpg" height="250">
-                </div>
+				<img class="img-responsive center-block" src=/public/img/pic/<?= $data ['image'] ?> height="250">
+              </div>
                    
                    
-                    <div class="blog-content">
+                  
                      <div class="col-md-6 col-sm-12 col-xs-12">
                      
                         <h3> <?= htmlspecialchars($data['title']) ?></h3>
@@ -40,7 +41,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
+    
 
    
     <?php } $posts->closeCursor(); ?>
