@@ -19,7 +19,7 @@
                 <div class="col-md-6 col-sm-12 col-xs-12 margin_bottom30">
                   
                     
-				<img class="img-responsive center-block" src=/public/img/pic/<?= $data ['image'] ?> height="250">
+				<img class="img-responsive center-block" src="public/img/pic/<?= ($data ['image']);?>" height="250">
               </div>
                    
                    

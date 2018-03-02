@@ -57,7 +57,7 @@ class PostManager extends Manager
     {
         $db = $this->dbConnect();
         $comments = $db->prepare('UPDATE posts SET title = ?, image = ?, content = ? WHERE id = ?');
-        $returnArticle = $comments->execute(array($title, $image, $icontent, $id));
+        $returnArticle = $comments->execute(array($title, $image, $content, $id));
 
         return $returnArticle;
     }
