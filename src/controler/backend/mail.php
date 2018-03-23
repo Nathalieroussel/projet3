@@ -21,7 +21,7 @@ if (!empty($_POST['nom']) && !empty($_POST['email']) && !empty($_POST['message']
         $entete = 'From: '.$from;
         if (mail($destinataire,$sujet,$message,$entete))
         {
-            header('src/view/frontend/pageAccueil.php'); // Redirection vers la page de confirmation
+            header('Location: contact.php'); // Redirection vers la page de confirmation
         }
         else
         {

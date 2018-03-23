@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title><?= $title ?></title>
 	<meta charset="utf-8">
@@ -15,10 +16,14 @@
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
 	<script src="vendor/tinymce/tinymce/tinymce.min.js"></script>
 	<script>tinymce.init({ selector:'#textarea' });</script>
+	
+	
 </head>
 <body>
+
 	<?= $content ?>
-	<button onclick="scrollTop" class="scrollToTop" title="Go to top">Top</button>
+	<a id="back-to-top" href="#" class="btn btn-warning btn-lg back-to-top" role="button" title="Retour en haut" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	
 	<script src="public/js/jquery.min.js"></script>
     <script src="public/js/jquery.easing.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>

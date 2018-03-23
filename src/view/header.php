@@ -33,7 +33,7 @@
                     <div class="wrapper">
                         <div class="container ">
                             <div class="row">
-                                <div class="col-sm-8">
+                                <div class="col-lg-8 col-sm-8 col-xs-8">
                                     <div class="banner-info wow fadeIn delay-05s">
                                         <h1 class="bnr-title">NOUVEAU THRILLER <span>2018</span></h1>
                                         <h2 class="bnr-sub-title">Billet simple pour l'Alaska</h2>
@@ -43,7 +43,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4 couverture">
+                                
+                                <div class="col-lg-4 col-sm-4 col-xs-4 couverture">
                                     <div class="thumbnail">
                                         <img class="img-responsive" src="public/img/couverture.png" alt="couverture_livre">
                                     </div>
@@ -52,4 +53,7 @@
                         </div>
                     </div>
                     </div>
+            </div>
+        </div>
+    </div>
                 </header>

@@ -2,11 +2,11 @@
     <div class="bg-testicolor">
         <div class="container section-padding">
             <div class="row">
-               <div class="col-md-12 text-center">
+               <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
                 <h2 class="service-title2 pad-bt15">CRITIQUES LITTERAIRES</h2>
                 <hr class="bottom-line">
                 </div>
-                <div class="col-md-12 text-center">
+                <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
                 <div class="testimonial-item">
                     <ul class="bxslider">
                         <li>

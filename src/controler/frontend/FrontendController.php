@@ -2,7 +2,7 @@
 
 require_once('src/model/PostManager.php');
 require_once('src/model/CommentManager.php');
-require_once('src/model/membersManager.php');
+require_once('src/model/MembersManager.php');
 
 
 class frontendController

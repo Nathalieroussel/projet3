@@ -40,7 +40,8 @@
                         <span class="pull-right">Extrait du livre :<strong><em>"Billet simple pour l'Alaska"</em></strong></span> 
                     </div>
                 </div>
-            </div>
+    </div>
+            
         
     
 

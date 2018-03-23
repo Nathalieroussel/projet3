@@ -128,7 +128,7 @@ HEADER page d'accueil
 .header {
     background: url('../img/bg-banner02.jpg') no-repeat fixed;
     background-size: cover;
-    min-height: 650px;
+    min-height: 350px;
     position: relative;
 }
 
@@ -205,7 +205,7 @@ HEADER page d'accueil
 }
 
 .banner-info {
-    padding-top: 160px;
+    padding-top: 230px;
     color: #fff;
     height: 400px;
 }
@@ -334,6 +334,7 @@ A propos (about)
 
 #apropos{
     background-color: #F3F4F8;
+    padding-top: 180px;
 }
 
 ul.service-list li i {
@@ -516,14 +517,17 @@ TESTIMONIAL
     background-size: cover;
     min-height: 390px;
     background-attachment: fixed;
+   
     
 
 }
 
 .bg-testicolor {
     background-color: RGBA(73, 84, 105, 0.61);
-    min-height: 390px;
-    height: 490px;
+    min-height: 690px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
 }
 
 .white {
@@ -658,6 +662,8 @@ contact
 
 #contact {
     background-color: white;
+    height: 600px;
+    margin-top: 120px;
 }
 
 .btn-submit,
@@ -870,7 +876,7 @@ Responsive media queries
 }
 
 .couverture {
-    margin-top: 90px;
+    margin-top: 160px;
 }
 
 .overlay-detail {
@@ -981,11 +987,15 @@ Responsive media queries
 }
 #bibliographie {
     background-color: #F3F4F8;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
 #blog {
     background-color: #F3F4F8;
+    padding-top:160px;
+    
 }
 
 
@@ -1040,7 +1050,7 @@ Responsive media queries
 
 .recit {
     border-left-color:#be9e21;
-    margin-left: 400px;
+   
 }
 
 .illustration {
@@ -1117,5 +1127,34 @@ chapitres
 }
 
 
+
+/***********************************
+************************************
+Bouton back to top
+************************************
+***********************************/
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+
+
+
+
+
+
+.wrapper {
+    height: 900px;
+}
+
+.bxslider {
+    text-align: center;
+    
+}
 
 

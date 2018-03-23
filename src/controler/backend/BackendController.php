@@ -19,7 +19,7 @@ class BackendController
 		$commentManager = new commentManager();
 		$comments = $commentManager->getCommentsAdmin();
 		$commentsReport = $commentManager->getReportCommentsAdmin();
-		require('src/view/backend/listcommentsAdmin.php');
+		require('src/view/backend/listCommentsAdmin.php');
 	}
 	public function addPost($title, $content)
 	{
